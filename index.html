@@ -1,0 +1,1528 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Complete scrollable HTML transcription of UR PROJECT B with single-line mathematical notation.">
+<title>UR PROJECT B — Complete Mathematical HTML</title>
+<script>
+window.MathJax = {
+  tex: {inlineMath: [['\\(','\\)']], displayMath: [['\\[','\\]']]},
+  options: {skipHtmlTags: ['script','noscript','style','textarea','pre','code']}
+};
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<style>
+:root{--bg:#f4f6f8;--paper:#fff;--ink:#18202a;--muted:#5d6875;--line:#dfe5ec;--accent:#2563eb;--formula:#f7f9fc}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.72;font-size:17px}main{max-width:1000px;margin:0 auto;padding:34px 18px 80px}header{margin-bottom:22px}h1{font-size:clamp(1.9rem,5vw,2.8rem);line-height:1.15;margin:0 0 8px}.subtitle{color:var(--muted);margin:0}.source-note{margin-top:16px;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--muted);font-size:.94rem}.page{background:var(--paper);padding:28px 30px;margin:20px 0;border:1px solid var(--line);border-radius:14px;box-shadow:0 3px 14px rgba(0,0,0,.035)}.page-heading{font-size:1.25rem;margin:0 0 20px;padding-bottom:9px;border-bottom:1px solid var(--line)}.text{white-space:pre-wrap;overflow-wrap:anywhere}.math-block{margin:20px 0;padding:18px 12px;overflow-x:auto;overflow-y:hidden;white-space:nowrap;background:var(--formula);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:9px;text-align:left;font-size:1.08em;-webkit-overflow-scrolling:touch}.math-block mjx-container{max-width:none!important;white-space:nowrap!important;display:inline-block!important}.math-block mjx-math{white-space:nowrap!important}.text mjx-container{vertical-align:middle}table{border-collapse:collapse;width:100%;margin:18px 0;background:var(--paper)}th,td{border:1px solid var(--line);padding:9px 12px;text-align:left}th{font-weight:650;background:#f2f5f8}hr{border:0;border-top:1px solid var(--line);margin:30px 0}@media(max-width:640px){body{font-size:16px}main{padding:22px 10px 60px}.page{padding:20px 16px;border-radius:10px}.math-block{font-size:1em;padding:13px 7px;text-align:left;white-space:nowrap;overflow-x:auto}.math-block mjx-container{max-width:none!important;white-space:nowrap!important}}@media(prefers-color-scheme:dark){:root{--bg:#0f1217;--paper:#171b22;--ink:#edf1f7;--muted:#aab4c0;--line:#2b333e;--formula:#11161d}th{background:#202630}}@media print{body{background:#fff;color:#000}.page{box-shadow:none;border:0;padding:0;margin:0 0 30px}.source-note,.math-block{break-inside:avoid}}
+.math-block mjx-container[jax="CHTML"]{white-space:nowrap!important}.math-block mjx-math{white-space:nowrap!important}.math-block .mjx-mrow{white-space:nowrap!important}html{overflow-x:hidden}body{overflow-x:hidden}
+</style>
+</head>
+<body>
+<main>
+<header>
+<h1>UR PROJECT B</h1>
+<p class="subtitle">Readable mathematical transcription</p>
+<div class="source-note">All 49 pages are preserved below. Mathematical expressions are rendered with MathJax as proper fractions, powers, sums, limits, derivatives, integrals, operators, and Greek symbols. The observable is always the letter <strong>O</strong>, not Q.</div>
+</header>
+<section class="page" id="page-1"><h2 class="page-heading">Page 1</h2><div class="text">Prime weighted spectral observable:  P = { 2, 3, 5, 7, … }
+
+Let N &gt; 0, α &gt; 0, β &gt; 1, λ &gt; 0 then the “Prime-weighted Spectral Observable”,
+
+</div><div class="math-block">\[O_{\alpha,\beta,\lambda}(N)=\exp\!\left\{\sum_{p\in P}\frac{e^{-\lambda p/N}}{p^{\beta}}\left[\log\!\left(1+\frac{N}{p}\right)\right]^{\alpha}\right\}\]</div><div class="text">Here,
+N = The state (or observable parameter).
+α = Controls the non-linear logarithmic amplification.
+β = Determines the decay of prime contributions.
+λ = Introduces exponential damping.
+
+The summation extends over all prime numbers.
+
+Note: The observable is positive for every admissible choice of parameters because the exponential function is strictly positive.
+
+Interpretation of the parameters: Each parameter has a distinct role!
+
+(i) Parameter N: The variable N represents the principal observable quantity.
+
+As N increases, \(\log\!\left(1+\frac{N}{p}\right)\) changes slowly, producing a stable non-linear response.
+
+(ii) Parameter α: The exponent α controls the non-linear sensitivity.
+• Small values of α smooth the observable.
+• Larger values amplify the logarithmic contribution.
+
+Thus α governs the spectral response.
+
+(iii) Parameter β: The parameter β &gt; 1 controls the decay of prime contributions.
+
+Large primes contribute progressively less through the factor 1/pᵦ.
+
+Hence, β determines the localization of the observable.
+
+(iv) Parameter λ: The exponential factor \(e^{-\lambda p/N}\) suppresses contributions from sufficiently large primes.
+
+The additional damping improves convergence and numerical stability while allowing a tunable decay rate.</div></section>
+<hr>
+<section class="page" id="page-2"><h2 class="page-heading">Page 2</h2><div class="text">Note:  \(G(N)=\exp\!\left\{\sum_{p\in P}\omega(p,N)\,\phi\!\left(\frac{N}{p}\right)\right\}\)
+
+Definition: Let \(\omega:P\times(0,\infty)\to\mathbb{R}\) be smooth and satisfy \(\left|\omega(p,N)\right|\le\frac{C}{p^{\mu+\varepsilon}}\) for some ε &gt; 0.
+
+Let \(\phi\in C^{\infty}(\mathbb{R}_+)\) satisfy \(\left|\phi(x)\right|\le C(1+x)^m\).
+
+Define \(S(N)=\sum_{p\in P}\omega(p,N)\,\phi\!\left(\frac{N}{p}\right)\)
+
+Then define,
+
+\(G(N)=e^{S(N)}\)</div></section>
+<hr>
+<section class="page" id="page-3"><h2 class="page-heading">Page 3</h2><div class="text">Remark: The proposed observable is motivated by four well established mathematical theories: Analytic number theory, semigroup and spectral theory, non-linear analysis, and Koopman operator theory. Each component of the observable is chosen to reflect one of these mathematical structures.
+
+(1) Analytic Number Theory: The factor \(\frac{1}{p^{\beta}}\) comes from classical prime-weighted sums.
+
+This is related to prime zeta function \(P(s)=\sum_{p\in P}\frac{1}{p^s}\), s &gt; 1.
+
+This gives a rigorous reason why \(\frac{1}{p^{\beta}}\) is used.
+
+(2) Spectral Theory: The term \(e^{-\lambda p/N}\) is inspired by exponential damping.
+
+• Exponential damping appears in:
+(i) Heat semigroups.
+(ii) Diffusion equations.
+(iii) Spectral theory.
+(iv) Operator semigroups.
+
+This explains why large primes contribute less.
+
+(3) Non-linear Analysis: The function \(\log\!\left(1+\frac{N}{p}\right)\) is:
+• Smooth
+• Monotone
+• Differentiable
+• Slowly increasing.
+
+These are desirable properties for non-linear observables.
+
+(4) Koopman Theory: Koopman theory studies observables g(·).
+
+This function is simply choosing g(x) = O(N(x)).
+
+Hence, the observable belongs naturally to Koopman theory.</div></section>
+<hr>
+<section class="page" id="page-4"><h2 class="page-heading">Page 4</h2><div class="text">Theorem: Well-Definedness.
+
+For every α &gt; 0, β &gt; 1, λ &gt; 0, N &gt; 0 the observable \(O_{\alpha,\beta,\lambda}(N)\) is finite.
+
+Proof: Observe that \(\log\!\left(1+\frac{N}{p}\right)\) ≤ N/p which follows from the elementary inequality,
+
+</div><div class="math-block">\[\log(1+x)\le x, x>0\quad\left[\log\!\left(1+\frac{N}{p}\right)\right]^{\alpha}\le\left(\frac{N}{p}\right)^{\alpha}\quad\frac{e^{-\lambda p/N}}{p^{\beta}}\left[\log\!\left(1+\frac{N}{p}\right)\right]^{\alpha}\le\frac{N^{\alpha}}{p^{\alpha+\beta}}\quad0<e^{-\lambda p/N}\le1\quad\sum_{p\in P}\frac{e^{-\lambda p/N}}{p^{\beta}}\left[\log\!\left(1+\frac{N}{p}\right)\right]^{\alpha}\le N^{\alpha}\sum_{p\in P}\frac1{p^{\alpha+\beta}}.\]</div><div class="text">α + β &gt; 1
+
+the prime zeta series Σₚ∈P 1/p^(α+β) converges absolutely.
+
+Hence, the defining series converges absolutely.
+
+Since the exponential function is continuous,
+\(O_{\alpha,\beta,\lambda}(N)\) = exp(series)  [exp: R → (0,∞)].
+
+⇒ It’s finite and +ve for every N &gt; 0.
+
+Therefore, the generalized prime-weighted spectral observable is well-defined for every admissible parameter choice.
+
+⇒ \(O_{\alpha,\beta,\lambda}(N)\) is well-defined ∀ N &gt; 0.</div></section>
+<hr>
+<section class="page" id="page-5"><h2 class="page-heading">Page 5</h2><div class="text">Remark (1): The assumption β &gt; 1 guarantees convergence through the Prime zeta function. The exponential damping factor \(e^{-\lambda p/N}\) further accelerates convergence, making the observable numerically stable and analytically suitable for infinite-dimensional operator-theoretic applications.
+
+Remark (2): Since the exponential function is strictly positive,
+\(O_{\alpha,\beta,\lambda}(N)\) &gt; 0  ∀ N &gt; 0.
+This positivity is useful when defining weighted Koopman and Perron-Frobenius operators.</div></section>
+<hr>
+<section class="page" id="page-6"><h2 class="page-heading">Page 6</h2><div class="text">Theorem: The Observable is continuous.
+
+Let \(O_{\alpha,\beta,\lambda}(N)\) = exp( Σₚ∈P \(e^{-\lambda p/N}\)/pᵝ [\(\log\!\left(1+\frac{N}{p}\right)\)]ᵅ ), where N &gt; 0, α &gt; 0, β &gt; 1, λ &gt; 0.
+
+Then \(O_{\alpha,\beta,\lambda}\) : (0,∞) → (0,∞) is continuous.
+
+Proof: Define S(N) = Σₚ∈P \(e^{-\lambda p/N}\)/pᵝ [\(\log\!\left(1+\frac{N}{p}\right)\)]ᵅ.
+
+Since O(N) = e^S(N), it is enough to prove that S(N) is continuous.
+
+(1) Each summand is cts.: For every fixed prime p, define</div><div class="math-block">\[f_p(N)=\frac{e^{-\lambda p/N}}{p^{\beta}}\left[\log\!\left(1+\frac{N}{p}\right)\right]^{\alpha}\]</div><div class="text">Observe that,
+• N → \(e^{-\lambda p/N}\) is cts. for N &gt; 0
+• N → \(\log\!\left(1+\frac{N}{p}\right)\) is cts.
+• The power function x → xᵅ is cts. for x &gt; 0.
+• Multiplication of cts. fn. is cts.
+
+Hence, fₚ(N) is cts. for every prime p.
+
+(2) Uniform convergence on Compact Intervals:
+Let K = [a,b] ⊂ (0,∞) where 0 &lt; a ≤ b.
+
+Since N ≤ b, we have \(\log\!\left(1+\frac{N}{p}\right)\) ≤ b/p using the inequality log(1+x) ≤ x.
+
+Therefore, fₚ(N) ≤ \(e^{-\lambda p/N}\)/pᵝ (b/p)ᵅ = bᵅ \(e^{-\lambda p/N}\)/p^(α+β)
+
+fₚ(N) ≤ bᵅ e^(−λp/b)/p^(α+β).
+
+Since Σₚ∈P bᵅ e^(−λp/b)/p^(α+β) is cgt., the Weierstrass M-test implies that the series defining S(N) cgt. uniformly on every compact interval K.</div></section>
+<hr>
+<section class="page" id="page-7"><h2 class="page-heading">Page 7</h2><div class="text">(3) Continuity of the Series: Each summand fₚ(N) is cts., and the series converges uniformly on compact subset of (0,∞).
+
+By the Uniform Limit theorem, the sum S(N) is cts. on (0,∞).
+
+(4) Continuity of the Exponential:
+
+Since the exponential fn. exp: R → (0,∞) is cts.,
+the composition \(O_{\alpha,\beta,\lambda}(N)\) = e^S(N) is cts.
+
+Therefore,
+\(O_{\alpha,\beta,\lambda}(N)\) is cts. on (0,∞).
+
+This completes the proof ...</div></section>
+<hr>
+<section class="page" id="page-8"><h2 class="page-heading">Page 8</h2><div class="text">Theorem: The Observable is smooth.
+
+Let \(O_{\alpha,\beta,\lambda}(N)\) = exp( Σₚ∈P \(e^{-\lambda p/N}\)/pᵝ [\(\log\!\left(1+\frac{N}{p}\right)\)]ᵅ ), where N &gt; 0, α &gt; 0, β &gt; 1, λ &gt; 0.
+
+Then \(O_{\alpha,\beta,\lambda}\) ∈ C∞(0,∞).
+
+Proof: Define S(N) = Σₚ∈P \(e^{-\lambda p/N}\)/pᵝ [\(\log\!\left(1+\frac{N}{p}\right)\)]ᵅ.
+
+Since O(N) = e^S(N), it is enough to prove S ∈ C∞(0,∞).
+
+(1) For every prime p,
+fₚ(N) = \(e^{-\lambda p/N}\)/pᵝ [\(\log\!\left(1+\frac{N}{p}\right)\)]ᵅ
+
+Since,
+• e^(−x) is smooth
+• log(1+x) is smooth for x &gt; −1
+• \(\log\!\left(1+\frac{N}{p}\right)\) &gt; 0 whenever N &gt; 0
+• xᵅ is smooth on (0,∞)
+
+their composition is smooth.
+
+Hence, fₚ ∈ C∞(0,∞).
+
+(2) Let K = [a,b] ⊂ (0,∞).
+
+Every derivative of fₚ is a finite linear combination of terms of the form
+
+</div><div class="math-block">\[\frac{e^{-\lambda p/N}}{p^{\beta+k}}\,P_m(N)\left[\log\!\left(1+\frac{N}{p}\right)\right]^{\alpha-r},\qquad m,r\ge0,\;m,r\text{ bounded on }K.\]</div><div class="text">using log(1+x) ≤ x, this obtains, |fₚ^(m)(N)| ≤ Cₖ e^(−λp/b) / p^(β+k) for every N ∈ K.
+
+Since β &gt; 1, the comparison series Σ e^(−λp/b)/p^(β+k) converges.
+
+Hence, the derivative series cgt. uniformly by the Weierstrass M-test.
+
+(3) A standard theorem on differentiation of uniformly convergent series implies:
+S ∈ C∞(0,∞).</div></section>
+<hr>
+<section class="page" id="page-9"><h2 class="page-heading">Page 9</h2><div class="text">(4) Since e is infinitely differentiable, the chain rule yields,
+
+O = e^S ∈ C∞(0,∞).
+
+Therefore,
+\(O_{\alpha,\beta,\lambda}\) ∈ C∞(0,∞).
+
+Hence,
+\(O_{\alpha,\beta,\lambda}\) ∈ C∞(0,∞).
+
+This completes the proof.</div></section>
+<hr>
+<section class="page" id="page-10"><h2 class="page-heading">Page 10</h2><div class="text">Theorem: The Observable satisfies Certain Bound.
+
+Let \(O_{\alpha,\beta,\lambda}(N)\) = exp( Σₚ∈P \(e^{-\lambda p/N}\)/pᵝ [\(\log\!\left(1+\frac{N}{p}\right)\)]ᵅ ), where N &gt; 0, α &gt; 0, β &gt; 1, λ &gt; 0.
+
+Then for every N &gt; 0,
+
+1 ≤ \(O_{\alpha,\beta,\lambda}(N)\) ≤ exp(Nᵅ P(α+β))
+
+where P(s) = Σₚ∈P 1/pˢ, s &gt; 1 is the Prime Zeta function.
+
+Proof: Define S(N) = Σₚ∈P \(e^{-\lambda p/N}\)/pᵝ [\(\log\!\left(1+\frac{N}{p}\right)\)]ᵅ.
+
+Then O(N) = e^S(N).
+
+Hence it’s sufficient to estimate S(N).
+
+(1) Positivity: For every prime p,
+• \(e^{-\lambda p/N}\) &gt; 0
+• pᵝ &gt; 0
+• \(\log\!\left(1+\frac{N}{p}\right)\) &gt; 0
+
+Therefore, \(e^{-\lambda p/N}\)/pᵝ [\(\log\!\left(1+\frac{N}{p}\right)\)]ᵅ &gt; 0.
+
+Thus S(N) &gt; 0.
+
+Consequently, O(N) &gt; 1.
+
+(2) Upper Estimate: using the elementary inequality,
+log(1+x) ≤ x ; x &gt; 0
+
+we get, \(\log\!\left(1+\frac{N}{p}\right)\) ≤ N/p
+
+⇒ [\(\log\!\left(1+\frac{N}{p}\right)\)]ᵅ ≤ (N/p)ᵅ.
+
+Since \(e^{-\lambda p/N}\) ≤ 1,
+we obtain,
+\(e^{-\lambda p/N}\)/pᵝ [\(\log\!\left(1+\frac{N}{p}\right)\)]ᵅ ≤ Nᵅ/p^(α+β).
+
+Summing over all primes gives:
+S(N) ≤ Nᵅ Σₚ 1/p^(α+β), since α+β &gt; 1.
+
+the prime zeta fn. converges,
+⇒ S(N) ≤ Nᵅ P(α+β).</div></section>
+<hr>
+<section class="page" id="page-11"><h2 class="page-heading">Page 11</h2><div class="text">(3) Because the exponential fn. is increasing,
+
+O(N) = e^S(N) ≤ e^(Nᵅ P(α+β))
+
+Therefore,</div><div class="math-block">\[1&lt;O_{\alpha,\beta,\lambda}(N)\le\exp\!\left(N^{\alpha}P(\alpha+\beta)\right)\]</div><div class="text">This completes the proof.
+
+Corollary: Uniform Bound on Compact Sets.
+
+If 0 &lt; a ≤ N ≤ b then,
+
+1 &lt; \(O_{\alpha,\beta,\lambda}(N)\) ≤ exp(bᵅ P(α+β))
+
+Hence, the observable is uniformly bounded on every compact interval of (0,∞).</div></section>
+<hr>
+<section class="page" id="page-12"><h2 class="page-heading">Page 12</h2><div class="text">Theorem: The Observable becomes a Koopman eigenfunction under suitable assumptions.
+
+Let X be a Banach space and let φₜ : X → X be a cts. dynamical system with Koopman operator.
+
+(\(K_T\)f)(u) = f(φₜ(u))
+
+Suppose that N: X → (0,∞) is an invariant functional, that is,
+
+N(φₜ(u)) = N(u)  ∀ u ∈ X,  ∀ t ≥ 0
+
+let</div><div class="math-block">\[O_{\alpha,\beta,\lambda}(u)=\exp\!\left\{\sum_{p\in P}\frac{e^{-\lambda p/N(u)}}{p^{\beta}}\left[\log\!\left(1+\frac{N(u)}p\right)\right]^{\alpha}\right\}\]</div><div class="text">Then \(O_{\alpha,\beta,\lambda}\) is a Koopman eigenfunction with eigenvalue μ=1.
+
+Proof: Recall that the Koopman operator acts on observable by
+(\(K_T\)f)(u) = f(φₜ(u))
+
+Substituting the definition,
+
+(\(K_T\)O)(u) = exp { Σₚ e^(−λp/φₜ(u))/pᵝ [log(1 + N(φₜ(u))/p)]ᵅ }
+
+since N(φₜ(u)) = N(u) by hypothesis,
+
+(\(K_T\)O)(u) = exp { Σₚ e^(−λp/N(u))/pᵝ [\(\log\!\left(1+\frac{N(u)}{p}\right)\)]ᵅ }
+
+That is exactly O(u).
+
+Hence, \(K_T\)O = O. (1)
+
+By the definition of Koopman eigen fn:
+\(K_T\)O = μO. (2)
+
+Comparing the two eqs, μ=1.
+
+Therefore, \(O_{\alpha,\beta,\lambda}\) is a Koopman eigenfunction with eigenvalue 1.
+
+This completes the proof.</div></section>
+<hr>
+<section class="page" id="page-13"><h2 class="page-heading">Page 13</h2><div class="text">Theorem: The weighted Perron-Frobenius operator is bounded.
+
+Let (X, B, μ) be a probability space and let
+\(P_T\) : L²(X, μ) → L²(X, μ) be a bdd. P-F operator.
+
+Assume that the generalized prime-weighted spectral observable \(O_{\alpha,\beta,\lambda}\) : X → (0,∞) satisfies ||\(O_{\alpha,\beta,\lambda}\)||∞ &lt; ∞.
+
+Define the weighted Perron-Frobenius operator by
+
+(Pₒf)(x) = \(O_{\alpha,\beta,\lambda}\)(x)(Pf)(x),
+
+for every f ∈ L²(X,μ).
+
+Then Pₒ : L²(X,μ) → L²(X,μ) is a bdd. linear operator.
+
+Proof: Since P is linear and multiplication by \(O_{\alpha,\beta,\lambda}\) is linear,
+Pₒ = \(M_O\)P where (\(M_O\)f)(x)=\(O_{\alpha,\beta,\lambda}\)(x)f(x).
+
+(1) Estimate the norm:
+For every f ∈ L²(X,μ) we compute,
+
+||Pₒf||₂ = ||\(M_O\)(Pf)||₂
+= (∫ₓ |O(x)|² |Pf(x)|² dμ)¹ᐟ²
+
+since |O(x)| ≤ ||O||∞
+we obtain,
+||Pₒf||₂ ≤ ||O||∞ ||Pf||₂.
+
+(2) Boundedness of P: ∵ P is bdd. ∃ C&gt;0 s.t.
+||Pf||₂ ≤ C||f||₂
+
+Therefore, ||Pₒf||₂ ≤ ||O||∞ C||f||₂
+⇒ Pₒ is bdd. and ||Pₒ|| ≤ ||O||∞||P||.
+
+This completes the proof.
+
+Corollary: If \(O_{\alpha,\beta,\lambda}\) satisfies the bound O(N) ≤ exp(NᵅP(α+β)) then
+||O|| ≤ exp(NᵅP(α+β))||P||.
+
+Thus, the boundedness of the observable directly implies the boundedness of the weighted Perron-Frobenius operator.</div></section>
+<hr>
+<section class="page" id="page-14"><h2 class="page-heading">Page 14</h2><div class="text"># Multiplication Operator: Let (X,μ) be a measure space and let H = L²(X,μ).
+
+Suppose N: X → (0,∞) is measurable.
+
+Defining induced observable,
+O(x) = \(O_{\alpha,\beta,\lambda}\)(N(x))
+
+Then the P-W.M.O. associated with these observable is:
+
+(\(M_O\)f)(x) = \(O_{\alpha,\beta,\lambda}\)(N(x))·f(x).
+
+for every ‘f’ for which the right-hand side belongs to L²(X,μ).
+
+Thus, \(M_O=M_O\)ₐ,ᵦ,λ(N(x)).
+
+⇒ Standard form of a Multiplication operator:
+(Mφf)(x) = φ(x)f(x).
+
+Since observable is cgt by p-series and it’s finite for every N &gt; 0.
+
+Therefore, this is the basic analytical foundation for the operator.
+
+Theorem (I) Well-defined (Prime-W.M.O.):
+
+Let \(O_{\alpha,\beta,\lambda}(N)\) = exp [ Σₚ∈P \(e^{-\lambda p/N}\)/pᵝ (\(\log\!\left(1+\frac{N}{p}\right)\))ᵅ ]
+
+with α&gt;0, N&gt;0, β&gt;1, λ&gt;0.
+
+Let N: X → (0,∞) be measurable and define
+O(x) = \(O_{\alpha,\beta,\lambda}\)(N(x)).
+
+Then (\(M_O\)f)(x) = O(x)f(x).
+
+By the definition of D(\(M_O\)),
+Of ∈ L²(X,μ).</div></section>
+<hr>
+<section class="page" id="page-15"><h2 class="page-heading">Page 15</h2><div class="text">Thus, \(M_O\)f ∈ L²(X,μ).
+
+Therefore, \(M_O\) is a well-defined multiplication operator.
+
+Theorem (II) Linearity:
+
+Define a multiplication operator on L²(X,μ) with natural domain,
+
+D(\(M_O\)) = {f ∈ L²(X,μ): af ∈ L²(X,μ)}.
+
+Proof: For every x ∈ X, N(x)&gt;0.
+From the convergence argument,
+
+0 &lt; \(O_{\alpha,\beta,\lambda}\)(N(x)) &lt; ∞.
+
+Therefore, O(x) is a well defined positive measurable fn., assuming N is measurable.
+
+For f ∈ D(\(M_O\)), define (\(M_O\)f)(x)=O(x)f(x).
+By the definition of D(\(M_O\)),
+Of ∈ L²(X,μ).
+
+Thus \(M_O\)f ∈ L²(X,μ).
+
+Therefore \(M_O\) is a well-defined multiplication operator.
+
+(II) Linearity: For f,g ∈ D(\(M_O\)) and a,b ∈ C,
+\(M_O\)(af+bg) = a\(M_O\)f + b\(M_O\)g.
+
+Thus \(M_O\) is a linear operator.
+
+Proof: By def,
+\(M_O\)(αf+βg)(x) = O(x)[αf(x)+βg(x)]
+= αO(x)f(x)+βO(x)g(x)
+= α\(M_O\)f(x)+β\(M_O\)g(x).
+
+Hence \(M_O\)(αf+βg)=α\(M_O\)f+β\(M_O\)g.
+
+Therefore, \(M_O\) is linear.</div></section>
+<hr>
+<section class="page" id="page-16"><h2 class="page-heading">Page 16</h2><div class="text">(III) Boundedness: Let a be a measurable fn on X.
+
+The multiplication operator,
+(\(M_O\)f)(x)=a(x)f(x)
+is bdd. on L²(X,μ) iff. a ∈ L∞(X,μ).
+Moreover, ||\(M_O\)||=||a||∞.
+
+For observable, a(x)=\(O_{\alpha,\beta,\lambda}\)(N(x)).
+
+So, ||\(M_O\)|| = ess.supₓ∈X \(O_{\alpha,\beta,\lambda}\)(N(x)).
+
+Proof: Suppose a ∈ L∞(X,μ), then |a(x)| ≤ ||a||∞ almost everywhere.
+
+For f ∈ L²(X,μ),
+||\(M_O\)f||² = ∫ₓ |a(x)f(x)|² dμ.
+
+Hence, ||\(M_O\)f||² ≤ ||a||∞² ∫ₓ |f(x)|² dμ.
+
+Thus, ||\(M_O\)f||₂ ≤ ||a||∞||f||₂
+⇒ ||\(M_O\)|| ≤ ||a||∞.
+
+The reverse inequality follows from the definition of essential supremum by choosing f supported where |a| is arbitrarily close to ||a||∞.
+
+Hence ||\(M_O\)||=||a||∞.
+
+# Important Result for Observable:
+Since for observable, \(\log\!\left(1+\frac{N}{p}\right)\) → log N for fixed p while \(e^{-\lambda p/N}\) → 1,
+
+Therefore, the exponent in O(N) generally grows with N.
+
+⇒ \(M_O\) : L²(0,∞) → L²(0,∞) is bdd. and
+\(M_O\) = max N∈(0,∞) \(O_{\alpha,\beta,\lambda}(N)\).</div></section>
+<hr>
+<section class="page" id="page-17"><h2 class="page-heading">Page 17</h2><div class="text">(IV) Self Adjointness: Consider H = L²(X,μ)
+and (\(M_O\)f)(x)=a(x)f(x).
+
+If a ∈ L∞(X,μ) and a is real-valued almost everywhere, then the multiplication operator
+\(M_O\) : L²(X,μ) → L²(X,μ) is self-adjoint,
+\(M_O^*=M_O\).
+
+Proof: Let f,g ∈ L²(X,μ), the inner product is:
+
+&lt;\(M_O\)f,g&gt; = ∫ₓ a(x)f(x) ḡ(x) dμ
+
+Since a(x) is real, a(x)=ā(x).
+
+Therefore,
+&lt;\(M_O\)f,g&gt; = ∫ₓ f(x) ā(x)g(x) dμ
+Thus, &lt;\(M_O\)f,g&gt; = &lt;f,\(M_O\)g&gt;.
+
+Hence, \(M_O^*=M_O\).
+Therefore, \(M_O\) is self-adjoint.
+
+# Application for Observable:
+\(O_{\alpha,\beta,\lambda}(N)\) = exp [ Σₚ∈P \(e^{-\lambda p/N}\)/pᵝ [\(\log\!\left(1+\frac{N}{p}\right)\)]ᵅ ]
+
+where every factor is real and non-negative.
+Therefore \(O_{\alpha,\beta,\lambda}(N)\) &gt; 0.
+Hence, it’s real-valued.
+
+Consequently, on any state domain where O is essentially bounded, the corresponding multiplication operator is self-adjoint.
+
+Thus, \(M_O^*=M_O\).</div></section>
+<hr>
+<section class="page" id="page-18"><h2 class="page-heading">Page 18</h2><div class="text">Th: “Prime-weighted Multiplication Operator \(M_O\)”
+
+Let \(O_{\alpha,\beta,\lambda}(N)\) = exp [ Σₚ∈P \(e^{-\lambda p/N}\)/pᵝ [\(\log\!\left(1+\frac{N}{p}\right)\)]ᵅ ]
+
+where N&gt;0, α&gt;0, β&gt;1, λ&gt;0.
+
+Let I = [N₀,N₁] ⊂ (0,∞) be a compact interval and define H = L²(I).
+
+The operator (\(M_O\)ₐ,ᵦ,λf)(N) = \(O_{\alpha,\beta,\lambda}(N)\) f(N) has the following properties:
+
+(1) Well-definedness: \(M_O\)ₐ,ᵦ,λ is well-defined on L²(I).
+
+(2) Linearity: \(M_O\)ₐ,ᵦ,λ(αf+βg) = α\(M_O\)ₐ,ᵦ,λf + β\(M_O\)ₐ,ᵦ,λg.
+
+(3) Boundedness: ||\(M_O\)ₐ,ᵦ,λ|| = ess.sup \(O_{\alpha,\beta,\lambda}(N)\) &lt; ∞.
+
+(4) Positivity: &lt;\(M_O\)ₐ,ᵦ,λf,f&gt; ≥ 0.
+
+(5) Self-adjointness: \(M_O\)ₐ,ᵦ,λ* = \(M_O\)ₐ,ᵦ,λ.
+
+Proof: The convergence of the prime sum follows from:
+\(e^{-\lambda p/N}\)/pᵝ [\(\log\!\left(1+\frac{N}{p}\right)\)]ᵅ ≤ Nᵅ/p^(β+α)
+and β+α &gt; 1.
+
+Thus O is finite, it’s continuous on the compact interval I, and therefore ||O||∞ &lt; ∞.
+
+The standard multiplication-operator theorem then gives ||\(M_O\)|| = ||O||∞.
+
+Linearity follows directly from multiplication by the fixed fn. O.
+
+Furthermore, O(N)&gt;0.
+Hence, O is real-valued. For f,g ∈ L²(I),
+
+&lt;\(M_O\)f,g&gt; = ∫I O(N)f(N) ḡ(N) dN
+
+and therefore, &lt;\(M_O\)f,g&gt; = &lt;f,\(M_O\)g&gt;.</div></section>
+<hr>
+<section class="page" id="page-19"><h2 class="page-heading">Page 19</h2><div class="text">Thus, \(M_O^*=M_O\).
+
+Finally
+&lt;\(M_O\)f,f&gt; = ∫I O(N)|f(N)|² dN ≥ 0
+
+Therefore, \(M_O\) is positive as well as self-adjoint.</div></section>
+<hr>
+<section class="page" id="page-20"><h2 class="page-heading">Page 20</h2><div class="text">Numerical Example: Prime-weighted Multiplication Operator.
+
+Observable is:</div><div class="math-block">\[O_{\alpha,\beta,d}(N)=\exp\!\left[\sum_{p\in P}\frac{e^{-dp/N}}{p^{\beta}}\left(\log\!\left(1+\frac{N}{p}\right)\right)^{\alpha}\right]\]</div><div class="text">Let N=10, α=1, β=2, d=1.
+
+and let the function on which the multiplication operator acts be,
+f(N)=N
+
+Therefore, f(10)=10.
+
+For chosen parameters, O(10) ≈ 1.69277.
+
+Since the prime-weighted multiplication operator is:
+(\(M_O\)f)(N)=O(N)f(N)
+
+≈ 1.69277×10
+≈ 16.9277
+
+Therefore, (\(M_O\)f)(10) ≈ 16.9277
+
+⇒ 10  ──\(M_O\)──→ 16.9277
+
+The observable has multiplied the original function value by approximately,
+O(10) ≈ 1.69277
+So the multiplication factor is approximately 1.693.
+
+Conclusion: The Prime-weighted Multiplication Operator changes the value of the function from 10 to approximately 16.9277 at the state N=10.</div></section>
+<hr>
+<section class="page" id="page-21"><h2 class="page-heading">Page 21</h2><div class="text"># Koopman Operator “Using Observable”:
+
+Consider a discrete dynamical system
+\(N_{n+1}\) = T(Nₙ) ; T : X → X
+
+Let F be a function space containing \(O_{\alpha,\beta,d}\).
+
+The standard Koopman operator associated with T is,
+\(K_T\) : F → F
+defined by (\(K_T\)g)(N)=g(TN)
+
+Equivalently, \(K_T\)g = g∘T.
+
+[This is the standard composition-operator definition: The dynamical map acts on the state, while the Koopman operator acts on observables.]
+
+For observable g(N)=\(O_{\alpha,\beta,d}(N)\)
+Therefore, (\(K_T\)\(O_{\alpha,\beta,d}\))(N)=\(O_{\alpha,\beta,d}\)(T(N))
+
+Substituting in formula,
+
+(\(K_T\)\(O_{\alpha,\beta,d}\))(N)=exp [ Σₚ∈P e^(−dpT(N))/pᵝ [log(1+T(N)/p)]ᵅ ]
+
+That is the prime-weighted Koopman observable associated with \(O_{\alpha,\beta,d}\).
+
+(I) Prime-weighted Koopman Observable:
+Let \(O_{\alpha,\beta,d}(N)\)=exp [ Σₚ∈P \(e^{-dp/N}\)/pᵝ [\(\log\!\left(1+\frac{N}{p}\right)\)]ᵅ ]
+and let \(N_{n+1}\)=T(Nₙ)
+
+Then the Koopman operator associated with T acts on \(O_{\alpha,\beta,d}\) according to
+(\(K_T\)\(O_{\alpha,\beta,d}\))(N)=\(O_{\alpha,\beta,d}\)(T(N)).
+
+Proof: By the definition of the Koopman operator,
+(\(K_T\)g)(N)=g(T(N)).</div></section>
+<hr>
+<section class="page" id="page-22"><h2 class="page-heading">Page 22</h2><div class="text">Taking g=\(O_{\alpha,\beta,d}\)
+we immediately obtain,
+
+(\(K_T\)\(O_{\alpha,\beta,d}\))(N)=\(O_{\alpha,\beta,d}\)(T(N))
+
+using the definition of \(O_{\alpha,\beta,d}\),
+
+\(O_{\alpha,\beta,d}\)(T(N))=exp [ Σₚ∈P e^(−dp/T(N))/pᵝ [log(1+T(N)/p)]ᵅ ]
+
+Therefore,
+(\(K_T\)\(O_{\alpha,\beta,d}\))(N)=exp [ Σₚ∈P e^(−dp/T(N))/pᵝ [log(1+T(N)/p)]ᵅ ]
+
+Hence proved.
+
+Invariant Observable: A Koopman-invariant observable is obtained when the observable remains inside the same observable subspace under the Koopman operator.
+
+For observable consider,
+V₀ = span{\(O_{\alpha,\beta,d}\)}
+
+we require \(K_T\)V₀ ⊆ V₀.
+
+The strongest 1-dimensional case is:
+\(K_T\)\(O_{\alpha,\beta,d}\) = μ\(O_{\alpha,\beta,d}\) ; μ∈C.
+
+Then \(O_{\alpha,\beta,d}\) is a Koopman eigen-observable/eigenfn. with eigenvalue μ. This is the standard Koopman eigenfn. condition.
+
+(II) Suppose ∃ μ ∈ C s.t. \(O_{\alpha,\beta,d}\)(T(N)) = μ\(O_{\alpha,\beta,d}(N)\) for every N in the state domain.
+
+Then span{\(O_{\alpha,\beta,d}\)} is Koopman invariant and \(K_T\)\(O_{\alpha,\beta,d}\) = μ\(O_{\alpha,\beta,d}\).
+
+Proof:
+By previous theorem, \(K_T\)\(O_{\alpha,\beta,d}\) = \(O_{\alpha,\beta,d}\)∘T.
+By the assumed condition, \(O_{\alpha,\beta,d}\)∘T = μ\(O_{\alpha,\beta,d}\).
+Hence, \(K_T\)\(O_{\alpha,\beta,d}\) ∈ span{\(O_{\alpha,\beta,d}\)}.
+Therefore, \(K_T\) span{\(O_{\alpha,\beta,d}\)} ⊆ span{\(O_{\alpha,\beta,d}\)}.
+Thus the observable is Koopman invariant.</div></section>
+<hr>
+<section class="page" id="page-23"><h2 class="page-heading">Page 23</h2><div class="text">Koopman Evolution: For, \(N_{n+1}\)=T(Nₙ)
+Define Nₙ=Tⁿ(N₀)
+
+The Koopman evolution is:
+\(K_T\)ⁿ \(O_{\alpha,\beta,d}\) = \(O_{\alpha,\beta,d}\) ∘ Tⁿ
+
+(III) For every integer n≥0,
+(\(K_T\)ⁿ\(O_{\alpha,\beta,d}\))(N₀)=\(O_{\alpha,\beta,d}\)(Nₙ).
+
+Proof:
+For n=1,
+(\(K_T\)O)(N₀)=O(T(N₀))=O(N₁)
+
+For n=2,
+(\(K_T\)²O)(N₀)=O(T²(N₀))=O(N₂)
+
+In general,
+\(K_T\)ⁿO = O∘Tⁿ
+
+Since Nₙ=Tⁿ(N₀)
+we obtain, (\(K_T\)ⁿO)(N₀)=O(Nₙ)
+
+Hence proved.
+
+For particular function:</div><div class="math-block">\[O_{\alpha,\beta,d}(N_n)=\exp\!\left[\sum_{p\in P}\frac{e^{-dp/N_n}}{p^{\beta}}\left(\log\!\left(1+\frac{N_n}{p}\right)\right)^{\alpha}\right]\]</div><div class="text">Thus, the Koopman operator describes the evolution of prime-weighted observable along the orbit.
+
+Relation Btw. Koopman Operator &amp; the Observable:
+
+The exact relationship is \(N_{n+1}\)=T(Nₙ) and Oₙ=\(O_{\alpha,\beta,d}\)(Nₙ).
+
+Then Oₙ₊₁=\(O_{\alpha,\beta,d}\)(Nₙ) and because \(N_{n+1}\)=T(Nₙ) we have Oₙ₊₁=\(O_{\alpha,\beta,d}\)(T(Nₙ)).
+
+By the Koopman definition,
+\(O_{\alpha,\beta,d}\)(T(Nₙ))=(\(K_T\)\(O_{\alpha,\beta,d}\))(Nₙ)
+
+Therefore, Oₙ₊₁=(\(K_T\)\(O_{\alpha,\beta,d}\))(Nₙ).
+
+(IV) For the dynamical system, \(N_{n+1}\)=T(Nₙ) and observable \(O_{\alpha,\beta,d}(N)\) the following holds:
+\(O_{\alpha,\beta,d}\)(\(N_{n+1}\))=(\(K_T\)\(O_{\alpha,\beta,d}\))(Nₙ).</div></section>
+<hr>
+<section class="page" id="page-24"><h2 class="page-heading">Page 24</h2><div class="text">Proof:
+\(N_{n+1}\)=T(Nₙ)
+
+Therefore, \(O_{\alpha,\beta,d}\)(\(N_{n+1}\))=\(O_{\alpha,\beta,d}\)(T(Nₙ))
+
+By definition, (\(K_T\)\(O_{\alpha,\beta,d}\))(Nₙ)=\(O_{\alpha,\beta,d}\)(T(Nₙ)).
+
+Consequently,
+\(O_{\alpha,\beta,d}\)(\(N_{n+1}\))=(\(K_T\)\(O_{\alpha,\beta,d}\))(Nₙ).
+
+Hence proved.
+
+[This is precisely the standard idea that the Koopman operator advances the observable, rather than the state itself.]
+
+Note: It behaves as a Koopman eigen-observable when the dynamical map T satisfied \(O_{\alpha,\beta,d}\)(T(N))=μ\(O_{\alpha,\beta,d}(N)\).
+
+Thus, \(K_T\)\(O_{\alpha,\beta,d}\) = μ\(O_{\alpha,\beta,d}\)
+
+Hence, \(O_{\alpha,\beta,d}\) is a Koopman eigen-observable with eigenvalue μ.
+
+This is exactly the standard eigenfunction criterion Kφ=μφ.</div></section>
+<hr>
+<section class="page" id="page-25"><h2 class="page-heading">Page 25</h2><div class="text">Numerical example to show relation b/w \(K_T\) &amp; \(O_{\alpha,\beta,d}(N)\).
+
+Let O(N)=exp[ Σₚ∈P \(e^{-dp/N}\)/pᵝ [\(\log\!\left(1+\frac{N}{p}\right)\)]ᵅ ]
+
+So that, α=1, β=2, d=1.
+
+Choosing the dynamical system: T(N)=2N
+
+Initial state N₀=1, N₁=T(N₀)=2.
+
+Using the prime sum numerically,
+O(1) ≈ 1.01548
+and O(2) ≈ 1.08078
+
+Now, by definition of the Koopman operator,
+(\(K_T\)O)(N)=O(T(N))
+
+Therefore, (\(K_T\)O)(1)=O(T(1))=O(2)
+
+Hence, (\(K_T\)O)(1)≈1.08078
+∴ O(N₁)=O(2)≈1.08078
+
+Therefore, (\(K_T\)O)(N₀)=O(N₁).
+
+Relation Demonstrated:
+N₀=1 ──T(N)=2N──→ N₁=2
+while
+O(1)=1.01548 ──\(K_T\)──→ O(2)=1.08078
+
+So this numerical example directly verifies the theoretical relation:
+(\(K_T\)O)(N)=O(T(N)).</div></section>
+<hr>
+<section class="page" id="page-26"><h2 class="page-heading">Page 26</h2><div class="text">Perron-Frobenius Operator Framework:
+
+Consider a 1-dimensional dynamical system,
+\(N_{n+1}\)=T(Nₙ)
+
+where T:X→X is a non-singular, piecewise C¹ transformation on an interval X.
+
+The standard Perron-Frobenius operator (also called the transfer operator) acts on densities. For a density f,
+
+</div><div class="math-block">\[(P_Tf)(y)=\sum_{x\in T^{-1}(y)}\frac{f(x)}{|T'(x)|}\]</div><div class="text">It describes how a density is transformed by the dynamical system.
+
+Standard treatments of the Perron-Frobenius operator, densities, and invariant measures can be found in Lasota-Mackey and Boyarsky-Góra.
+
+\(O_{\alpha,\beta,d}\) is originally an observable, not a density. Therefore, to use it rigorously with a Perron-Frobenius operator, define it as normalized density by,
+
+</div><div class="math-block">\[\rho_O(N)=\frac{O_{\alpha,\beta,d}(N)}{\displaystyle\int_X O_{\alpha,\beta,d}(N)\,dN}\]</div><div class="text">provided the integral is finite.
+
+Thus,
+
+</div><div class="math-block">\[\rho_O(N)=\frac{\exp\!\left[\displaystyle\sum_{p\in P}\frac{e^{-dp/N}}{p^{\beta}}\left(\log\!\left(1+\frac{N}{p}\right)\right)^{\alpha}\right]}{\displaystyle\int_X\exp\!\left[\displaystyle\sum_{p\in P}\frac{e^{-dp/N}}{p^{\beta}}\left(\log\!\left(1+\frac{N}{p}\right)\right)^{\alpha}\right]dN}\]</div><div class="text">This is the Prime-weighted density induced by Observable.
+
+(I) Prime-weighted Density: Let X be a finite-measure state space on which \(O_{\alpha,\beta,d}\) is integrable and +ve.
+
+Define,
+\(\rho_O\)(N)=\(O_{\alpha,\beta,d}(N)\)/∫X \(O_{\alpha,\beta,d}(N)\)dN
+
+Then \(\rho_O\) is a probability density:
+\(\rho_O\)(N)&gt;0
+and
+∫X \(\rho_O\)(N)dN=1.
+
+Proof: From the definition of observable, \(O_{\alpha,\beta,d}(N)\)&gt;0 because it’s the exponential of a real-valued sum.
+Therefore, \(\rho_O\)(N)&gt;0.</div></section>
+<hr>
+<section class="page" id="page-27"><h2 class="page-heading">Page 27</h2><div class="text">Let Z₀ = ∫X \(O_{\alpha,\beta,d}(N)\)dN
+
+Then ∫X \(\rho_O\)(N)dN = 1/Z₀ ∫X \(O_{\alpha,\beta,d}(N)\)dN = Z₀/Z₀ = 1.
+
+Hence \(\rho_O\) is a probability density.
+
+Prime-weighted Perron-Frobenius operator:
+
+Using the prime-weighted density, define the Perron-Frobenius evolution by,
+
+</div><div class="math-block">\[(P_T\rho_O)(y)=\sum_{x\in T^{-1}(y)}\frac{\rho_O(x)}{|T'(x)|}\]</div><div class="text">Substituting density,
+
+(\(P_T\)\(\rho_O\))(y)= 1/Z₀ Σₓ∈\(T^{-1}\)(y) exp[Σₚ∈P e^(−dp/x)/pᵝ [log(1+x/p)]ᵅ] / |T′(x)|
+
+This is the Prime-weighted Perron-Frobenius evolution generated from observable.
+
+(II) Let T be piecewise C¹ and non-singular, and let \(\rho_O\) be the prime-weighted density defined above. Then its evolved density is:
+
+\(\rho_O\)₁ = \(P_T\)\(\rho_O\)
+
+more explicitly,
+
+\(\rho_O\)₁(y)=1/Z₀ Σₓ∈\(T^{-1}\)(y) \(O_{\alpha,\beta,d}\)(x)/|T′(x)|
+
+Proof: The standard Perron-Frobenius operator is:
+(\(P_T\)f)(y)=Σₓ∈\(T^{-1}\)(y) f(x)/|T′(x)|
+
+Taking f=\(\rho_O\)=\(O_{\alpha,\beta,d}\)/Z₀ gives,
+
+(\(P_T\)\(\rho_O\))(y)=Σₓ∈\(T^{-1}\)(y) \(O_{\alpha,\beta,d}\)(x)/(Z₀|T′(x)|)
+
+Therefore,
+\(\rho_O\)₁(y)=1/Z₀ Σₓ∈\(T^{-1}\)(y) \(O_{\alpha,\beta,d}\)(x)/|T′(x)|.</div></section>
+<hr>
+<section class="page" id="page-28"><h2 class="page-heading">Page 28</h2><div class="text">Boundedness: For the boundedness, let the prime-weighted transfer operator,
+
+(Lₒf)(y)=Σₓ∈\(T^{-1}\)(y) \(O_{\alpha,\beta,d}\)(x)f(x)/|T′(x)|
+
+This is the natural weighted transfer operator form associated with observable.
+
+Assume \(O_{\alpha,\beta,d}\) ∈ L∞(X).
+
+(III) If the ordinary Perron-Frobenius operator \(P_T\) is bounded on L¹(X) and \(O_{\alpha,\beta,d}\) ∈ L∞(X), then
+
+Lₒ : L¹(X) → L¹(X)
+
+is bounded, with ||Lₒf||₁ ≤ ||\(O_{\alpha,\beta,d}\)||∞ ||f||₁.
+
+Proof: By definition,
+Lₒf = \(P_T\)(\(O_{\alpha,\beta,d}\) f).
+
+Hence, ||Lₒf||₁ = ||\(P_T\)(\(O_{\alpha,\beta,d}\) f)||₁.
+
+Using the L¹ boundedness of the Perron-Frobenius operator,
+||Lₒf||₁ ≤ ||\(O_{\alpha,\beta,d}\) f||₁.
+
+Since |\(O_{\alpha,\beta,d}(N)\)| ≤ ||\(O_{\alpha,\beta,d}\)||∞
+we obtain,
+||\(O_{\alpha,\beta,d}\) f||₁ ≤ ||\(O_{\alpha,\beta,d}\)||∞ ||f||₁.
+
+Therefore,
+||Lₒf||₁ ≤ ||\(O_{\alpha,\beta,d}\)||∞ ||f||₁.
+
+Hence Lₒ is bdd.
+
+Invariant Density: A density ρ* is called an invariant density of the Perron-Frobenius operator when
+\(P_T\)ρ*=ρ*.
+
+For prime-weighted density, we therefore require
+\(P_T\)\(\rho_O\)=\(\rho_O\).</div></section>
+<hr>
+<section class="page" id="page-29"><h2 class="page-heading">Page 29</h2><div class="text">(IV) The density, \(\rho_O\)(N)=\(O_{\alpha,\beta,d}(N)\)/Z₀ is invariant under T iff
+
+Σₓ∈\(T^{-1}\)(y) \(O_{\alpha,\beta,d}\)(x)/|T′(x)| = \(O_{\alpha,\beta,d}\)(y) for almost every y∈X.
+
+Proof: By definition,
+\(\rho_O\) = \(O_{\alpha,\beta,d}\)/Z₀.
+
+The invariance condition is:
+\(P_T\)\(\rho_O\)=\(\rho_O\).
+
+The left-hand side is:
+(\(P_T\)\(\rho_O\))(y)=1/Z₀ Σₓ∈\(T^{-1}\)(y) \(O_{\alpha,\beta,d}\)(x)/|T′(x)|
+
+The right-hand side is:
+\(\rho_O\)(y)=\(O_{\alpha,\beta,d}\)(y)/Z₀.
+
+Multiplying both side by Z₀:
+
+Σₓ∈\(T^{-1}\)(y) \(O_{\alpha,\beta,d}\)(x)/|T′(x)| = \(O_{\alpha,\beta,d}\)(y)
+
+Hence proved.
+
+[So, this is exact condition that observable-induced density must satisfy to become a Perron-Frobenius invariant density.]
+
+Relation between Observable and Perron-Frobenius Operator:
+
+Observable is \(O_{\alpha,\beta,d}(N)\).
+It generates the density,
+\(\rho_O\)(N)=\(O_{\alpha,\beta,d}(N)\)/Z₀.
+
+The Perron-Frobenius operator then evolves their density:
+\(\rho_O\)ₙ₊₁=\(P_T\)\(\rho_O\)ₙ.
+
+Thus, the relationship is:
+\(O_{\alpha,\beta,d}\) → \(\rho_O\) → \(P_T\)\(\rho_O\).
+
+In explicit form,
+\(O_{\alpha,\beta,d}(N)\) ──normalization──→ \(\rho_O\)(N) ──\(P_T\)──→ \(\rho_O\)₁(N)</div></section>
+<hr>
+<section class="page" id="page-30"><h2 class="page-heading">Page 30</h2><div class="text">(V) Let \(\rho_O\) = \(O_{\alpha,\beta,d}\)/Z₀. Then,
+
+</div><div class="math-block">\[(P_T(O_{\alpha,\beta,d}/Z_0))(y)=\frac1{Z_0}\sum_{x\in T^{-1}(y)}\frac{O_{\alpha,\beta,d}(x)}{|T'(x)|}\]</div><div class="text">Proof: Directly from the definition of the Perron-Frobenius operator,
+
+(\(P_T\)\(\rho_O\))(y)=Σₓ∈\(T^{-1}\)(y) \(\rho_O\)(x)/|T′(x)|
+
+Since \(\rho_O\)(x)=\(O_{\alpha,\beta,d}\)(x)/Z₀,
+we obtain,
+(\(P_T\)\(\rho_O\))(y)=1/Z₀ Σₓ∈\(T^{-1}\)(y) \(O_{\alpha,\beta,d}\)(x)/|T′(x)|
+
+Hence proved.
+
+Numerical Example: Observable,
+\(O_{\alpha,\beta,d}(N)\)=exp [Σₚ∈P \(e^{-dp/N}\)/pᵝ (\(\log\!\left(1+\frac{N}{p}\right)\))ᵅ]
+
+Choosing, α=1, β=2, d=1,
+and state space 0&lt;N&lt;1.
+
+For numerical evaluation, truncate the prime sum at p≤1000.
+
+(1) Calculate the Observable:
+At N=0.15, O(0.15)=1.00000003
+At N=0.65, O(0.65)=1.00346730
+
+The normalization constant is numerically,
+Z=∫₀¹ O(N)dN ≈ 1.00345667
+
+Therefore, the prime-weighted density is:
+\(\rho_O\)(N)=O(N)/Z
+
+Hence,
+\(\rho_O\)(0.15)≈1.00000003/1.00345667 ≈ 0.996556
+and
+\(\rho_O\)(0.65)≈1.00346730/1.00345667 ≈ 1.000011
+
+(2) Choosing the dynamical map:
+Taking the doubling map: T(N)=2N.
+
+For y=0.30 the two inverse images are,
+x₁=0.15 and x₂=0.65
+
+Also |T′(x)|=2.</div></section>
+<hr>
+<section class="page" id="page-31"><h2 class="page-heading">Page 31</h2><div class="text">(3) The standard formula is for the P-F operator:
+
+(\(P_T\)ρ)(y)=Σₓ∈\(T^{-1}\)(y) ρ(x)/|T′(x)|
+
+Therefore,
+
+(\(P_T\)\(\rho_O\))(0.30)=\(\rho_O\)(0.15)/2 + \(\rho_O\)(0.65)/2
+
+(\(P_T\)\(\rho_O\))(0.30)=0.996556/2 + 1.000011/2
+
+(\(P_T\)\(\rho_O\))(0.30) ≈ 0.99828
+
+Final result:
+
+O(N) → \(\rho_O\)(N) ──\(P_T\)──→ \(\rho_O\)₁(N).
+
+and especially,
+(\(P_T\)\(\rho_O\))(0.30) ≈ 0.99828.
+
+[So this example demonstrates how prime-weighted observable is first converted into a normalized density, and the Perron-Frobenius operator then transports that density through the dynamical map.]</div></section>
+<hr>
+<section class="page" id="page-32"><h2 class="page-heading">Page 32</h2><div class="text"># Spectral Theory for Observable:
+
+(1) Definition of spectral theory: Let A be a bounded linear operator on a complex Banach space X.
+
+The spectrum of A is:
+σ(A) = { μ ∈ C : μI − A is not invertible }.
+
+The point spectrum consists of eigenvalues:
+\(\sigma_p\)(A) = { μ ∈ C : Ax=μx for some x≠0 }.
+
+The spectral radius is:
+r(A)=sup{|μ| : μ∈σ(A)}.
+
+[For observable, spectral theory can be applied through the multiplication operator,
+(\(M_O\)f)(N)=\(O_{\alpha,\beta,d}(N)\)f(N).]
+
+(2) Explicit Asymptotic formula for observable as N→∞.
+
+⇒ The prime zeta fn. \(P(s)=\sum_{p\in P}\frac{1}{p^s}\) ; s&gt;1
+
+Observable satisfies:
+log \(O_{\alpha,\beta,d}(N)\)=Σₚ∈P \(e^{-dp/N}\)/pᵝ [\(\log\!\left(1+\frac{N}{p}\right)\)]ᵅ.
+
+Putting L=log N,
+for fixed p, \(e^{-dp/N}\)=1+O(1/N)
+and \(\log\!\left(1+\frac{N}{p}\right)\)=L−log p+O(1/N).
+
+Consequently,
+(L−log p)ᵅ = Lᵅ − α(log p)L^(α−1) + O((log L)^(α−2)).
+
+Since β&gt;1, the prime sums Σₚ∈P \(\frac{1}{p^{\beta}}\), Σₚ∈P log p/pᵝ converge.
+
+Therefore,
+
+log \(O_{\alpha,\beta,d}(N)\) = P(β)(log N)ᵅ + αP′(β)(log N)^(α−1) + O((log N)^(α−2)).
+
+For the usual asymptotic expansion when the displayed higher-order terms are retained, hence, the leading asymptotic formula is:
+
+\(O_{\alpha,\beta,d}(N)\) = exp{ P(β)(log N)ᵅ + αP′(β)(log N)^(α−1) + O((log N)^(α−2)) }.
+
+In particular,
+limₙ→∞ [ log \(O_{\alpha,\beta,d}(N)\) / (log N)ᵅ ] = P(β).</div></section>
+<hr>
+<section class="page" id="page-33"><h2 class="page-heading">Page 33</h2><div class="text">* The parameter λ controls the finite-N damping, but does not change the leading asymptotic coefficient P(β).
+
+(3) Growth Rate of the Observable:
+
+From the previous result, log O(N) ~ P(β)(log N)ᵅ.
+
+Therefore,
+O(N)=exp(P(β)(log N)ᵅ(1+o(1))).
+
+The growth depends strongly on α.
+
+Case (1) 0&lt;α&lt;1.
+O(N)=N^(P(β)(log N)^(α−1))
+
+Thus it grows to infinity, but more slowly than every positive power of N.
+
+Case (2) α=1.
+log O(N) ~ P(β)log N,
+so O(N) ~ Cβ N^(P(β))
+with the next-order constant determined by the full asymptotic expansion.
+
+Thus, the observable has polynomial growth.
+
+Case (3) α&gt;1.
+O(N)=exp[P(β)(log N)ᵅ(1+o(1))]
+
+This is faster than every fixed power Nᶜ, but slower than e^(N^ε) for every ε&gt;0.
+
+Hence, observable has a stretched-exponential in log N growth.
+
+(4) Spectrum of the Multiplication Operator:
+
+Let I be finite interval, I=[a,b]⊂(0,∞)
+and the Hilbert space H=L²(I)
+define (\(M_O\)f)(N)=O(N)f(N)
+
+Because O is cts. on the compact interval I, it’s bdd. there.
+Thus, \(M_O\) is a bdd. multiplication operator.
+
+For a multiplication operator,
+σ(\(M_O\))=ess ran(O).
+
+This is the standard multiplication-operator spectral result.</div></section>
+<hr>
+<section class="page" id="page-34"><h2 class="page-heading">Page 34</h2><div class="text">O(N) is cts. and strictly increasing because every term,
+\(e^{-\lambda p/N}\)/pᵝ [\(\log\!\left(1+\frac{N}{p}\right)\)]ᵅ increases with N.
+
+Therefore,
+ess ran(O)=[O(a),O(b)].
+
+Hence σ(\(M_O\))=[O(a),O(b)].
+
+This is the explicit spectrum of your multiplication operator on L²([a,b]).
+
+(5) Eigenvalues of the Multiplication Operator:
+
+An eigenvalue μ of \(M_O\) must satisfy \(M_O\)f=μf.
+
+Therefore, O(N)f(N)=μf(N)
+or
+(O(N)−μ)f(N)=0.
+
+For a non-zero f, we require O(N)=μ on a set of positive measure.
+
+But O(N) is strictly increasing.
+Therefore, O(N)=μ has at most one solution.
+A single point has Lebesgue measure zero.
+Consequently, there is no non-zero L²-function supported on that level set.
+
+Hence, \(\sigma_p\)(\(M_O\))=∅ on L²([a,b]) with Lebesgue measure.
+
+[So, an important spectral feature of observable is:
+Spectrum exists, but there are no eigenvalues.]
+
+The spectrum is therefore not simply the set of eigenvalues.
+
+(6) Spectral Radius:
+For a bdd. operator,
+r(\(M_O\))=sup_{μ∈σ(\(M_O\))} |μ|.
+
+Since observable is positive, O(N)&gt;0,
+therefore r(\(M_O\))=max_{N∈[a,b]} O(N).
+
+Since O is increasing, r(\(M_O\))=O(b).</div></section>
+<hr>
+<section class="page" id="page-35"><h2 class="page-heading">Page 35</h2><div class="text">Thus explicitly,</div><div class="math-block">\[r(M_O)=\exp\!\left[\sum_{p\in P}\frac{e^{-\lambda p/b}}{p^{\beta}}\left(\log\!\left(1+\frac{b}{p}\right)\right)^{\alpha}\right]\]</div><div class="text">This gives a direct spectral quantity determined by observable.
+
+(7) Theorem: Connecting the Multiplication-Operator Spectrum and Koopman-Operator Spectrum.
+
+Statement: The spectrum of \(M_O\) and the spectrum of \(K_T\) are not automatically equal.
+
+They become equal under a specific spectral-equivalence condition.
+
+Suppose \(K_T\) is the Koopman operator of a dynamical system T, and let H₀ be a closed Koopman-invariant subspace.
+
+Assume ∃ a bdd. bijective map,
+U:H₀→L²(I)
+
+s.t.
+U(\(K_T\)|H₀)\(U^{-1}\)=\(M_O\).
+
+In words, the Koopman operator restricted to H₀ is similar to the multiplication operator generated by observable.
+
+Under the above assumption,
+σ(\(K_T\)|H₀)=σ(\(M_O\)).
+
+Therefore,
+σ(\(K_T\)|H₀)=[O(a),O(b)].
+
+Proof: Let A=\(K_T\)|H₀.
+
+By assumption, \(M_O\)=UA\(U^{-1}\).
+
+For any μ∈C,
+μI−\(M_O\)=μI−UA\(U^{-1}\).
+
+Since UI\(U^{-1}\)=I,
+we have,
+(μI−\(M_O\))=U(μI−A)\(U^{-1}\).
+
+Thus, (μI−\(M_O\)) is invertible iff (μI−A) is invertible.
+
+Consequently, μ∈σ(\(M_O\)) iff μ∈σ(A).
+
+Therefore, σ(\(M_O\))=σ(A).
+
+Since A=\(K_T\)|H₀, we obtain
+σ(\(M_O\))=σ(\(K_T\)|H₀), hence proved.
+
+[The use of Koopman-invariant subspace to obtain restricted finite-dimensional operator representations is standard in Koopman theory.]</div></section>
+<hr>
+<section class="page" id="page-36"><h2 class="page-heading">Page 36</h2><div class="text"># Spectral Corollary:
+
+Under the conditions of the theorem,
+r(\(K_T\)|H₀)=r(\(M_O\)).
+
+But r(\(M_O\))=O(b).
+
+Therefore,
+r(\(K_T\)|H₀)=O(b).
+
+Explicitly,</div><div class="math-block">\[r(K_T|_{H_0})=\exp\!\left[\sum_{p\in P}\frac{e^{-\lambda p/b}}{p^{\beta}}\left(\log\!\left(1+\frac{b}{p}\right)\right)^{\alpha}\right]\]</div><div class="text">Proof: Similar operators have identical spectra.
+Therefore,
+σ(\(K_T\)|H₀)=σ(\(M_O\)).
+
+Hence, their spectral radii are equal:
+r(\(K_T\)|H₀)=r(\(M_O\))
+
+since r(\(M_O\))=O(b) by previous results.
+
+Therefore,
+r(\(K_T\)|H₀)=O(b).
+
+8.) Adjoint of the Observable's Multiplication Operator:
+
+Statement: For the multiplication operator \(M_O\)f=Of on L²([a,b]), its adjoint is:
+\(M_O\)*=\(M_O\)
+
+since observable O(N) is real and positive,
+Ō(N)=O(N).
+
+Therefore, \(M_O\)*=\(M_O\).
+
+Thus, the multiplication operator generated by observable is self-adjoint.
+
+Proof: Take f,g ∈ L²([a,b]), the inner product is:
+
+&lt;\(M_O\)f,g&gt; = ∫ₐᵇ O(N)f(N) ḡ(N)dN
+= ∫ₐᵇ f(N) Ō(N)g(N)dN
+&lt;\(M_O\)f,g&gt;=&lt;f,\(M_O\)g&gt;.
+
+By the definition of the adjoint,
+\(M_O\)*=\(M_O\).
+
+∵ O(N)&gt;0, O(N) is real.
+Consequently, Ō=O.
+Therefore, \(M_O\)*=\(M_O\).
+Hence, \(M_O\) is self-adjoint.</div></section>
+<hr>
+<section class="page" id="page-37"><h2 class="page-heading">Page 37</h2><div class="text">&lt;7 Spectrum of the Adjoint:
+
+For every bdd. operator A on a complex Hilbert space,
+
+σ(A*) = overline{σ(A)}.
+
+From the previous result, \(M_O\)*=\(M_O\).
+Therefore,
+σ(\(M_O\)*)=σ(\(M_O\)).
+
+From previous spectral result,
+σ(\(M_O\))=ess ran(O).
+
+Since O is cts. and strictly increasing on [a,b],
+ess ran(O)=[O(a),O(b)].
+
+Therefore,
+σ(\(M_O\)*)=σ(\(M_O\))=[O(a),O(b)].
+
+(4) Adjoint spectrum is non-empty:
+σ(\(M_O\)*)=[O(a),O(b)]
+
+because O(a)&gt;0, O(b)&gt;O(a).
+This interval contains infinitely many spectral values.
+So, σ(\(M_O\)*)≠∅.
+
+[This also follows from the general theorem that every bdd. operator on a non-zero complex Banach space has nonempty spectrum.]
+
+(5) Adjoint point spectrum (set of eigenvalues) is empty:
+
+Suppose μ is an eigenvalue of \(M_O\)*. Then there must exist f≠0
+s.t. \(M_O\)*f=μf.
+
+Since \(M_O\)*=\(M_O\),
+we get,
+O(N)f(N)=μf(N)
+
+Thus,
+(O(N)−μ)f(N)=0.
+
+Therefore, wherever f(N)≠0,
+we must have O(N)=μ.
+
+Since O is strictly increasing, O(N)=μ has at most one solution.
+A single point has Lebesgue measure zero.
+An L²-function supported only on that point is zero almost everywhere.
+This contradicts f≠0.
+
+Therefore,
+\(\sigma_p\)(\(M_O\)*)=∅.</div></section>
+<hr>
+<section class="page" id="page-38"><h2 class="page-heading">Page 38</h2><div class="text">Example: Relativistic Particle near a Schwarzschild Black Hole.
+
+Consider a particle moving in the gravitational field of a Schwarzschild black hole.
+
+Let u(t)∈X denote the state of the particle,
+where u(t)=(x(t),v(t)),
+contains its position and velocity.
+
+The Lorentz factor is,</div><div class="math-block">\[\gamma(u)=\frac{1}{\sqrt{1-\frac{|v(u)|^2}{c^2}}}\]</div><div class="text">where c is the speed of light
+and |v(u)|&lt;c.
+
+Define,
+N(u)=1+γ(u)
+
+since γ(u)≥1 ⇒ N(u)≥2.
+
+The generalized “Prime-weighted Spectral Observable” is:</div><div class="math-block">\[O_{\alpha,\beta,d}(u)=\exp\!\left\{\sum_{p\in P}\frac{e^{-dp/N(u)}}{p^{\beta}}\left[\log\!\left(1+\frac{N(u)}p\right)\right]^{\alpha}\right\}\]</div><div class="text">Physical Interpretation:
+
+As the particle falls toward the black hole,
+|v(u)| ↑ c,
+and γ(u) ↑ ∞.
+
+Consequently,
+N(u)=1+γ(u) ↑.
+
+This affects observable in two ways.
+
+(i) Exponential damping: The factor e^(−dp/N(u)) becomes closer to 1.
+
+So, large primes contribute more significantly to the observable.</div></section>
+<hr>
+<section class="page" id="page-39"><h2 class="page-heading">Page 39</h2><div class="text">(ii) Logarithmic Response: The quantity \(\log\!\left(1+\frac{N(u)}{p}\right)\) ↑ with N(u)
+
+⇒ Every prime contributes more strongly.
+
+Therefore, \(O_{\alpha,\beta,d}\)(u) increases and relativistic effects become more stronger.
+
+Numerical Illustration: Choose α=1, β=2, d=1.
+
+Case I: Slow Particle.
+Suppose v=0.2c.
+Then γ=1/√(1−(0.2)²) ≈ 1.0206.
+
+So, N=2.0206
+⇒ The observable is approximately,
+O ≈ 1.24.
+
+Case II: Relativistic Particle.
+Suppose v=0.95c.
+Then γ ≈ 3.2026
+⇒ N=4.2026
+⇒ The observable becomes approximately,
+O ≈ 1.55.
+
+Case III: Near the event horizon.
+Suppose v=0.999c.
+Then γ ≈ 22.37
+⇒ N ≈ 23.37
+
+The observable increases further to approximately,
+O ≈ 2.4.
+
+(The exact numerical values depend on how many primes are included in the truncated sum used for computation.)</div></section>
+<hr>
+<section class="page" id="page-40"><h2 class="page-heading">Page 40</h2><div class="text">Koopman Interpretation: Let \(K_T\) be the Koopman operator generated by the relativistic flow.
+
+Then (\(K_T\)O)(u)=O(φₜ(u))
+
+where φₜ is the particle trajectory.
+
+Thus, O acts as a non-linear observable that transforms the relativistic trajectory into a scalar time series. Spectral analysis of this time series can reveal invariant structures, dominant frequencies, or coherent dynamical behaviour.
+
+Perron-Frobenius Interpretation: Let ρ(u,t) be the probability density of particle states.
+
+The weighted Perron-Frobenius operator,
+
+(Pₒρ)(u)=O(u)(Pρ)(u)
+
+That’s assign greater weight to states with larger Lorentz factors.
+
+In this way, regions of the phase space associated with stronger relativistic effects have a larger influence on weighted statistical evolution.</div></section>
+<hr>
+<section class="page" id="page-41"><h2 class="page-heading">Page 41</h2><div class="text">Observable:</div><div class="math-block">\[\begin{gathered}O_{\alpha,\beta,d}(u)=\exp\!\left\{\sum_{p\in P}\frac{e^{-dp/N(u)}}{p^{\beta}}\left[\log\!\left(1+\frac{N(u)}p\right)\right]^{\alpha}\right\}\\[6pt]N(u)=1+\gamma(u),\qquad \gamma(u)=\frac1{\sqrt{1-\frac{|v(u)|^2}{c^2}}}\end{gathered}\]</div><div class="text">• As velocity v→c (γ→∞), the observable O increases.
+• Closer to the black hole (r→rₛ), relativistic effects increase O.
+• Larger N means exponential damping weakens, so large primes contribute more.
+• O transforms the relativistic trajectory into a scalar time series, useful for Koopman and Perron-Frobenius Analysis.
+
+Graph</div></section>
+<hr>
+<section class="page" id="page-42"><h2 class="page-heading">Page 42</h2><div class="text"># Numerical Experiments:
+
+(1) Numerical methodology: For all numerical experiments, the generalized prime-weighted spectral observable is evaluated in the form:</div><div class="math-block">\[O_{\alpha,\beta,d}(N)=\exp\!\left(S_{\alpha,\beta,d}(N)\right)\]</div><div class="text">The admissible parameter region is:
+N&gt;0, α&gt;0, β&gt;1, d&gt;0.
+
+Since the observable contains an infinite sum over primes, numerical calculations use the finite approximation, with pₘₐₓ=50,000.
+
+Thus the numerical observable is:</div><div class="math-block">\[O_{p_{\max}}(N)=\exp\!\left(S_{p_{\max}}(N)\right)\]</div><div class="text">The truncation should be explicitly stated in the paper. The numerical results below therefore represent the finite-prime approximation to the mathematically defined observable.
+
+I) Dependence on N: Observable on N while fixing,
+
+α=2, β=2, λ=0.5.
+
+The numerical values obtained are:</div>
+<table><thead><tr><th>N</th><th>O(N)</th></tr></thead><tbody>
+<tr><td>0.5</td><td>1.001820</td></tr>
+<tr><td>1</td><td>1.017443</td></tr>
+<tr><td>2</td><td>1.092086</td></tr>
+<tr><td>5</td><td>1.515359</td></tr>
+<tr><td>10</td><td>2.676247</td></tr>
+<tr><td>50</td><td>46.611147</td></tr>
+<tr><td>100</td><td>331.757980</td></tr>
+<tr><td>500</td><td>175249.179795</td></tr>
+<tr><td>1000</td><td>5408444.794490</td></tr>
+</tbody></table><div class="text">Graph</div></section>
+<hr>
+<section class="page" id="page-43"><h2 class="page-heading">Page 43</h2><div class="text">(1) Interpretation: The observable is positive and increases strongly with N. For small N, the exponential damping factor suppresses contribution from larger primes. As N increases the suppression becomes weaker and the logarithmic factor also increases. Consequently, the prime weighted sum increases and hence the exponential observable increases.
+
+For the selected parameters, the observable changes from approximately 1.0018 at N=0.5 to approximately 5.408×10⁶ at N=1000.
+
+This demonstrated that the observable is highly sensitive to the scale variable N.
+
+(II) Mathematical interp.: This experiment also confirms that globally bdd. as N→∞. with α=2, the observable is not globally bounded as N→∞. This agrees with its asymptotic growth law.
+
+III) Dependence on β: We investigate the effect of the P.W. exponent β.
+
+We fix:
+N=100, α=2, λ=0.5 and vary β over the admissible region β&gt;1.
+
+The results are:</div>
+<table><thead><tr><th>β</th><th>O</th></tr></thead><tbody>
+<tr><td>1.05</td><td>4.314263×10⁶</td></tr>
+<tr><td>1.10</td><td>1.821899×10⁶</td></tr>
+<tr><td>1.25</td><td>1.961156×10⁵</td></tr>
+<tr><td>1.50</td><td>1.175559×10⁴</td></tr>
+<tr><td>2.00</td><td>331.757980</td></tr>
+<tr><td>3.00</td><td>11.022785</td></tr>
+<tr><td>4.00</td><td>3.085448</td></tr>
+<tr><td>6.00</td><td>1.292641</td></tr>
+</tbody></table></section>
+<hr>
+<section class="page" id="page-44"><h2 class="page-heading">Page 44</h2><div class="text">(2) Interpretation: The observable decreases rapidly as β increases. This behaviour follows directly from the factor p^−β.
+
+When β is close to 1, large primes receive comparatively greater weight. As β increases, the factor p^−β suppresses large primes increasingly strongly.
+
+Therefore, β₁&lt;β₂ generally produces a stronger prime contribution for β₁, giving,
+
+Oₐ,ᵦ₁,d(N) &gt; Oₐ,ᵦ₂,d(N).
+
+For the numerical regime considered here, in particular,
+
+O₂,1.05,0.5(100)=4.31×10⁶
+
+where as
+O₂,2,0.5(100)=1.293
+
+Thus β acts as a prime-spectrum damping parameter.
+
+This is potentially useful when interpreting β as a parameter controlling the relative contribution of different prime scales.
+
+III) Dependence on α: For example α fixing:
+N=100, β=2, λ=0.5
+and vary α over the admissible region α&gt;0.
+
+The results are:</div>
+<table><thead><tr><th>α</th><th>O(N)</th></tr></thead><tbody>
+<tr><td>0.25</td><td>1.834082</td></tr>
+<tr><td>0.50</td><td>2.301551</td></tr>
+<tr><td>1.00</td><td>4.870672</td></tr>
+<tr><td>1.50</td><td>20.586383</td></tr>
+<tr><td>2.00</td><td>331.757980</td></tr>
+<tr><td>3.00</td><td>2.350867×10⁹</td></tr>
+<tr><td>4.00</td><td>1.759878×10²⁵</td></tr>
+<tr><td>5.00</td><td>2.677217×10³³</td></tr>
+</tbody></table></section>
+<hr>
+<section class="page" id="page-45"><h2 class="page-heading">Page 45</h2><div class="text">The numerical graph shows a dramatic increase as α becomes larger.
+
+(2) Interpretation: The parameter α controls the non-linear amplification of the logarithmic factor.
+
+\(\log\!\left(1+\frac{N}{p}\right)\) &gt; 0
+
+Using this quantity, the larger α can substantially amplify the contributions of primes for which the logarithmic factor is greater than one.
+
+Consequently, α acts as a non-linear amplification parameter.
+
+The numerical experiments demonstrate an important feature of the proposed observable:
+
+“The parameter α can't be treated merely as a harmless shape parameter, large values of α can produce extremely rapid growth.”
+
+The observation is important for applications because an appropriate parameter range for α should be selected according to the physical or dynamical scale of the problem.
+
+IV) Dependence on d: We fix N=100, α=2, β=2 while varying d.
+
+Thus, the prime sum is numerically truncated at p≤50,000.
+
+</div>
+<table><thead><tr><th>d</th><th>O</th></tr></thead><tbody>
+<tr><td>0.01</td><td>359.544510</td></tr>
+<tr><td>0.05</td><td>357.16387</td></tr>
+<tr><td>0.10</td><td>354.216456</td></tr>
+<tr><td>0.25</td><td>345.566776</td></tr>
+<tr><td>0.50</td><td>331.757980</td></tr>
+<tr><td>1.00</td><td>306.226359</td></tr>
+<tr><td>2.00</td><td>262.304379</td></tr>
+<tr><td>5.00</td><td>170.861508</td></tr>
+<tr><td>10.00</td><td>91.874485</td></tr>
+</tbody></table><div class="text">Graph</div></section>
+<hr>
+<section class="page" id="page-46"><h2 class="page-heading">Page 46</h2><div class="text">(4) Interpretation: The numerical results show a clear monotonic decrease of the observable as d increases.
+
+The reason is directly visible in the weighted factor \(e^{-dp/N}\).
+
+For fixed N, \(e^{-dp/N}\) decreases as d increases.
+
+Therefore, increasing d suppresses the contribution of every prime p to the sum.
+
+Consequently,
+
+Sₐ,β,d₁(N) &gt; Sₐ,β,d₂(N), whenever d₁&lt;d₂.
+
+and therefore,
+
+Oₐ,β,d₁(N) &gt; Oₐ,β,d₂(N).
+
+As,
+\(O_{2,2,0.01}(100)\) ≈ 359.54 whereas \(O_{2,2,10}(100)\) ≈ 91.89.
+
+Thus, increasing d from 0.01 to 10 reduces the observable by approximately 74.4%.</div></section>
+<hr>
+<section class="page" id="page-47"><h2 class="page-heading">Page 47</h2><div class="text">V) Application to Schwarzschild geodesic flow:
+
+Consider the Schwarzschild spacetime and restrict attention to equatorial timelike geodesic motion. In geometric units G=c=M=1, the radial equation can be written in “2nd order form” as,</div><div class="math-block">\[\frac{d^2r}{d\tau^2}=-\frac1{r^2}+\frac{L^2}{r^3}-\frac{3L^2}{r^4},\qquad \frac{d\phi}{d\tau}=\frac{L}{r^2}\]</div><div class="text">Here:
+r = the Schwarzschild radial coordinate
+τ = proper time
+L = the conserved specific angular momentum
+M = the black-hole mass.
+
+For the numerical experiment we choose:
+L=3.8, r(0)=10, \(\frac{dr}{d\tau}\)(0)=0.02.
+
+We then define the dimensionless observable input,
+
+\(N(\tau)=\frac{r(\tau)}{M}\) ;  M=1
+
+⇒ N(τ)=r(τ).
+
+The P.W.O. along the geodesic becomes,
+
+O(τ)=\(O_{2,2,0.5}(N(\tau))\).
+
+Numerical behaviour: The numerical geodesic begins at N(0)=10.
+
+During the calculated interval, the radial coordinate increased to approximately,
+N≈11.12
+before beginning to decrease.
+
+The corresponding P.W.O. changes approximately from
+O(0)≈2.68
+to about O≈3.12
+near the maximum radial excursion.
+
+Thus, the observable converts the radial evolution of the relativistic trajectory into a scalar quantity.</div></section>
+<hr>
+<section class="page" id="page-48"><h2 class="page-heading">Page 48</h2><div class="text">\(N(\tau)\to O_{2,2,0.5}(N(\tau))\)
+
+Graph
+
+This is precisely the type of construction that can be useful in an observable-based dynamical analysis.
+
+“The Schwarzschild geodesic flow generates the dynamical state N(τ), while the proposed P.W.O. provides a non-linear scalar representation of that state.”
+
+(VI) Accelerated Black-Hole Trajectory:
+
+To investigate the behaviour under acceleration, we introduce an explicitly phenomenological accelerated Schwarzschild radial model.</div><div class="math-block">\[\frac{d^2r}{d\tau^2}=-\frac1{r^2}+\frac{L^2}{r^3}-\frac{3L^2}{r^4}+a_0\]</div><div class="text">where a₀&gt;0 represents an imposed outward acceleration parameter.
+
+For the numerical experiment:
+L=3.8, r(0)=10, \(\frac{dr}{d\tau}\)(0)=0.02 and a₀=2×10⁻⁴.
+
+Again we use \(N(\tau)=\frac{r(\tau)}{M}\) with M=1.
+
+The observable is,
+
+O(τ)=\(O_{2,2,0.5}(N(\tau))\).
+
+Numerical results: The accelerated trajectory reached approximately
+N≈11.8
+during the simulated interval.
+
+The corresponding observable reaches approximately
+O≈3.24.
+
+Compared with the geodesic calculation, the acceleration changes the evolution of N and consequently changes the time-dependent observable.</div></section>
+<hr>
+<section class="page" id="page-49"><h2 class="page-heading">Page 49</h2><div class="text">This gives a useful relation:
+
+dynamical acceleration:
+
+→ change in N(τ)
+
+→ change in P.W.S.O.
+
+Graph
+
+Critical scientific qualification:
+
+This model shouldn’t be called an exact accelerating black-hole solution.
+
+It’s a phenomenological test model obtained by adding an acceleration term to the Schwarzschild radial equation.</div></section>
+<footer style="text-align:center;color:var(--muted);padding-top:24px">End of transcription.</footer>
+</main>
+</body>
+</html>
